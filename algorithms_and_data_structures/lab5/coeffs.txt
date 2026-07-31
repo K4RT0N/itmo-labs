@@ -1,0 +1,13 @@
+a = 1 + sin(-x)
+b = exp(-x)
+c = exp(-x)
+
+x0 = 10
+x1 = 20
+y0 = 0
+
+wavelet_order = 5
+wavelet_level = 0
+tolerance = 1e-10
+max_iterations = 50
+output_points = 201

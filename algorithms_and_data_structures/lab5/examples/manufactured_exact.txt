@@ -1,0 +1,15 @@
+# Exact solution: y(x) = x on [0, 1].
+# Indeed, y' = 1 and y^2 + (1 - x^2) = 1.
+a = 1
+b = 0
+c = 1 - x^2
+
+x0 = 0
+x1 = 1
+y0 = 0
+
+wavelet_order = 4
+wavelet_level = 2
+tolerance = 1e-11
+max_iterations = 50
+output_points = 201

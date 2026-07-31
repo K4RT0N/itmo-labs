@@ -1,0 +1,14 @@
+# A smooth variable-coefficient Riccati problem.
+a = 0.2 + 0.1 * sin(x)
+b = -1 + 0.25 * cos(x)
+c = exp(-x)
+
+x0 = 0
+x1 = 1
+y0 = 0
+
+wavelet_order = 5
+wavelet_level = 2
+tolerance = 1e-10
+max_iterations = 50
+output_points = 201
